@@ -11,7 +11,7 @@ st.title("Market Basket Analysis & Smart Recommendation System")
 # =========================
 # Sidebar Settings
 # =========================
-st.sidebar.header("⚙️ Settings")
+st.sidebar.header("Settings")
 
 min_support = st.sidebar.slider("Min Support", 0.001, 1.0, 0.02, step=0.001)
 min_confidence = st.sidebar.slider("Min Confidence", 0.1, 1.0, 0.3, step=0.05)
